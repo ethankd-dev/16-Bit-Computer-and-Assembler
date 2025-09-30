@@ -2,7 +2,7 @@
 
 ![K86 Logo](https://github.com/wvwa25/K86-16-Bit-Computer-and-Assembler-Implementation/blob/b162e0931177285cd827cff0ef0b16fd1de29538/K86%20Repo%20Header.png)
 
-With this project, my project partner and I designed a general-purpose 16-bit RISC+CISC computer architecture, alongside an assembler and instruction loader. Our computer architecture, Kennesaw State 86 (K86), is inspired by the Intel x86 and ARM architectures that have enabled computing systems to perform many of the modern functionalities we rely on today. To allow for fluid programming and processing, the assembler translates Kennesaw State Assembly (KASM) code into machine instructions which may be stored in computer memory by the loader. With all these components integrated together, our project defines much of the foundation of a sophisticated computing system (Fig. 1).
+With this project, my project partner, Vera, and I designed a general-purpose 16-bit RISC+CISC computer architecture, alongside an assembler and instruction loader. Our computer architecture, Kennesaw State 86 (K86), is inspired by the Intel x86 and ARM architectures that have enabled computing systems to perform many of the modern functionalities we rely on today. To allow for fluid programming and processing, the assembler translates Kennesaw State Assembly (KASM) code into machine instructions which may be stored in computer memory by the loader. With all these components integrated together, our project defines much of the foundation of a sophisticated computing system (Fig. 1).
 
 ![System Components](https://github.com/user-attachments/assets/f0121835-141d-45e4-b595-85cc112722a9)
 
@@ -80,13 +80,13 @@ a user may store outputs in a chosen memory location and then print them using
 the PRINTM instruction. After the program is complete, the user may stop the
 simulation to end execution.
 
-## Presentation and Project Website
+## Presentation
 
 [Video presentation](https://youtu.be/IbTwGopyiGQ?si=61_gHIYi0cginJTk) of our computer architecture
 
 [Kennesaw State University Digital Commons Link](https://digitalcommons.kennesaw.edu/cday/Spring_2025/Undergraduate_Research/8/)
+##
 
-Our project website: https://kowi.cc
-
+*README made by [Vera Warren-Aliff](https://github.com/wvwa25)*
 
 
