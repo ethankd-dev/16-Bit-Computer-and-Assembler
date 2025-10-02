@@ -19,7 +19,7 @@ instruction_memory = [False] * instruction_memory_size
 data_memory = [False] * data_memory_size
 
 # Stores the instructions before they are written to the output file,
-# this is needed because in the first pass through the file, because subprocesses can be anywhere in the file.
+# this is needed in the first pass through the file, because subprocesses can be anywhere in the file.
 # Their tokens, when used, are written as text into the binary, for example JMP Finish, would store as
 # 0000Finish in the memory lines array. Once the file is fully scanned once, it goes through these memory lines
 # and replaces all the tokens with their actual values. If the token doesn't exist, it throws an error
@@ -528,3 +528,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
